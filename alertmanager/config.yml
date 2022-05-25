@@ -4,10 +4,10 @@
 route:
         receiver: 'slack'
 
-receivers:
-- name: 'slack'
-  slack_configs:
-  - send_resolved: true
-    username: 'nam.bui@edvin.ai'
-    channel: '#system_monitoring'
-    api_url: 'https://hooks.slack.com/services/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'
+#receivers:
+#- name: 'slack'
+  #slack_configs:
+  #- send_resolved: true
+    #username: 'username'
+    #channel: '#channel01'
+    #api_url: 'api_url'
